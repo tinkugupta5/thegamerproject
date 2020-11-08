@@ -2,7 +2,7 @@ $("#play-video").on("click", function (e) {
     e.preventDefault();
     $("#video-overlay").addClass("open");
     $("#video-overlay").append(
-      '<iframe src="https://gatoledo.com/proj-codepen/earth.mp4" width="853" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>'
+
     );
   });
   
